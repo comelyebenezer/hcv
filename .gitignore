@@ -1,0 +1,16 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# Uploaded files
+assets/uploads/gallery/*
+assets/uploads/blog/*
+assets/uploads/events/*
+assets/uploads/partners/*
+!assets/uploads/*/.gitkeep
+
+# Logs
+*.log
+
+# Setup - remove after installation
+setup.php

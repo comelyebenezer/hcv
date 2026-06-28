@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: hcv
+    env: php
+    plan: free
+    branch: main
+    region: frankfurt
+    buildCommand: ""
+    startCommand: ""
+    healthCheckPath: /
+    envVars:
+      - key: APP_ENV
+        value: production

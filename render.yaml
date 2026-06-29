@@ -5,8 +5,8 @@ services:
     plan: free
     branch: main
     region: frankfurt
-    buildCommand: ""
-    startCommand: ""
+    buildCommand: "composer install"
+    startCommand: "php -S 0.0.0.0:$PORT -t ."
     healthCheckPath: /
     envVars:
       - key: APP_ENV
